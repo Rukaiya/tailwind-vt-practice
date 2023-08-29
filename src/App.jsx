@@ -1,10 +1,11 @@
+import Navbar from "./components/header/Navbar"
 
 function App() {
 
   return (
-    <h1 className="text-3xl font-bold underline">
-      App
-    </h1>
+    <div className="w-screen h-screen bg-sky-900">
+      <Navbar />
+    </div>
   )
 }
 
